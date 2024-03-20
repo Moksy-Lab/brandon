@@ -65,7 +65,10 @@
 .felicityfr3poxt3ngm .btn-primary:not(:disabled):not(.disabled):active{
     background-color: var(--primary-Color);
     border-color: var(--primary-Color);
-    font-weight: var(--button-font-weight);
+    font-weight: 400;
+}
+.felicityfr3poxt3ngm strong {
+    font-weight: 600 !important;
 }
 /* blogec6cc8e186617bf6 */
 .blogec6cc8e186617bf6 .my-3{
@@ -74,11 +77,62 @@
 .blogec6cc8e186617bf6 .blog-home3 h3{
     color: var(--text-Color);
 }
+.blogec6cc8e186617bf6 .blog-home3 .subtitle {
+    color: var(--black-Color);
+    font-size: 18px;
+}
 
 
 
-
-
-
-
-
+/* formft4wqz7r3sf */
+.formft4wqz7r3sf h2{
+    font-size: var(--heading);
+}
+.formft4wqz7r3sf .lead {
+    font-size: 18px;
+}
+.formft4wqz7r3sf .btn-primary,
+.formft4wqz7r3sf .btn-primary:hover,
+.formft4wqz7r3sf .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: var(--primary-Color);
+    border-color: var(--primary-Color);
+    font-weight: 400;
+}
+/* sliders1fae57451461b568 */
+.sliders1fae57451461b568 h3{
+    font-size: var(--heading-two);
+}
+.sliders1fae57451461b568 .btnStyle {
+    background-color: var(--secondary-Background-Color);
+}
+.sliders1fae57451461b568 .icon {
+    color: var(--black-Color);
+}
+.sliders1fae57451461b568 .card-text {
+    font-weight: 600 !important;
+}
+/* testimonialtmgmxjq0hb8 */
+.testimonialtmgmxjq0hb8 .lead {
+    font-size: 20px;
+    font-weight: 400;
+}
+.testimonialtmgmxjq0hb8 .h3 {
+    font-size: var(--heading-two);
+}
+.testimonialtmgmxjq0hb8 strong {
+    font-weight: 600 !important;
+}
+/* floresfts2q9glqh3 */
+.floresfts2q9glqh3 .fdb-block {
+    padding: 1.5rem 0;
+}
+.floresfts2q9glqh3 .bg-dark {
+    background-color: #273044 !important;
+}
+.floresfts2q9glqh3 h3{
+    font-size: var(--heading-two);
+}
+.floresfts2q9glqh3 a,
+.floresfts2q9glqh3 a:hover{
+    color: var(--secondary-Background-Color);
+}

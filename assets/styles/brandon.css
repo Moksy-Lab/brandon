@@ -81,9 +81,26 @@
     color: var(--black-Color);
     font-size: 18px;
 }
-
-
-
+.blogec6cc8e186617bf6 .blog-home3 .bg-success-gradient{
+    background: linear-gradient(to bottom, var(--secondary-Background-Color) 0%, var(--main-Background-Color) 218%);
+}
+.blogec6cc8e186617bf6 .blog-home3 .date-pos{
+    font-size: 12px;
+    color: var(--black-Color) !important;
+    font-weight: 600;
+}
+/* counteraf598102c9dad94e */
+.counteraf598102c9dad94e{
+    padding: 4em;
+}
+.counteraf598102c9dad94e h2 {
+    font-size: var(--heading);
+    color: var(--secondary-Background-Color);
+}
+.counteraf598102c9dad94e h4 {
+    font-size: 20px;
+    color: var(--black-Color);
+}
 /* formft4wqz7r3sf */
 .formft4wqz7r3sf h2{
     font-size: var(--heading);

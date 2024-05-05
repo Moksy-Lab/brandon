@@ -60,7 +60,7 @@
 }
 /* felicityfr3poxt3ngm */
 .felicityfr3poxt3ngm{
-    padding: 4em;
+    padding: var(--section-padding);
 }
 .felicityfr3poxt3ngm h3 {
     font-size: var(--heading-medium);
@@ -77,6 +77,9 @@
     font-weight: var(--button-font-weight) !important;
 }
 /* blogec6cc8e186617bf6 */
+.blogec6cc8e186617bf6{
+    padding: var(--section-padding);
+}
 .blogec6cc8e186617bf6 .my-3{
     font-size: var(--heading-large);
 }
@@ -85,7 +88,7 @@
 }
 .blogec6cc8e186617bf6 .blog-home3 .subtitle {
     color: var(--black-Color);
-    font-size: var();
+    font-size: var(--paragraph);
 }
 .blogec6cc8e186617bf6 .blog-home3 .bg-success-gradient{
     background: linear-gradient(to bottom, var(--secondary-Background-Color) 0%, var(--main-Background-Color) 218%);
@@ -98,9 +101,12 @@
 .blogec6cc8e186617bf6 .blog-home3 h5{
     font-size: var(--paragraph);
 }
+.blogec6cc8e186617bf6 p{
+    margin-left: 11px;
+}
 /* counteraf598102c9dad94e */
 .counteraf598102c9dad94e{
-    padding: 4em;
+    padding: var(--section-padding);
 }
 .counteraf598102c9dad94e h2 {
     font-size: var(--heading-large);
@@ -111,6 +117,9 @@
     color: var(--black-Color);
 }
 /* formft4wqz7r3sf */
+.formft4wqz7r3sf {
+   padding: var(--section-padding);
+}
 .formft4wqz7r3sf h2{
     font-size: var(--heading-large);
 }
@@ -124,7 +133,13 @@
     border-color: var(--primary-Color);
     font-weight: var(--button-font-weight);
 }
+.formft4wqz7r3sf .fdb-block{
+    padding: 1.5rem 0;
+}
 /* sliders1fae57451461b568 */
+.sliders1fae57451461b568{
+   padding: var(--section-padding);
+}
 .sliders1fae57451461b568 h3{
     font-size: var(--heading-large);
 }
@@ -140,6 +155,11 @@
 .sliders1fae57451461b568 .card img{
     margin-left: 15px;
 }
+.sliders1fae57451461b568 .pb-5,
+.sliders1fae57451461b568 .pt-5{
+ padding: 0rem;
+}
+
 /* testimonialtmgmxjq0hb8 */
 .testimonialtmgmxjq0hb8 .lead {
     font-size: var(--paragraph);
@@ -150,6 +170,9 @@
 }
 .testimonialtmgmxjq0hb8 strong {
     font-weight: 600 !important;
+}
+.testimonialtmgmxjq0hb8 .fdb-block{
+    padding: 1.5rem 0
 }
 /* floresfts2q9glqh3 */
 .floresfts2q9glqh3 .fdb-block {

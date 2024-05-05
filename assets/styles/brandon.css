@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-.fdb-block {
-    padding: 30px 0;
-}
-
 * {
     font-family: "Poppins", sans-serif;
 }
-
 :root {
     --primary-Color: #205EC8;
     --secondary-Color: #3F3A64;
@@ -24,9 +18,17 @@
     --secondary-Font: "Montserrat", sans-serif;
     --button-padding: 10px 40px;
     --button-border-radius: 50px;
-    --button-font-weight: 600;
-    --heading: 35px;
-    --heading-two: 25px;
+    --button-font-weight: 400;
+    --logo-border-radius: 15px;
+    --jumbotron-padding: 30px 16px;
+    --section-padding:30px 0px;
+    --heading:50px;
+    --heading-large: 35px;
+    --heading-medium: 25px;
+    --paragraph: 18px;
+}
+.fdb-block {
+    padding: 0rem 0;
 }
 /* headera2298f7674281b49 */
 .headera2298f7674281b49 .widgets_div .icon_div span i {
@@ -43,8 +45,11 @@
 }
 /* abouth66a519b827a7d261 */
 .abouth66a519b827a7d261 .DescriptionHeading{
-    font-size: 50px;
+    font-size: var(--heading);
     color: var(--text-Color);
+}
+.abouth66a519b827a7d261 .DescriptionPara{
+    font-size: var(--paragraph);
 }
 .abouth66a519b827a7d261 .searchBtn {
     background-color: var(--secondary-Background-Color);
@@ -58,66 +63,70 @@
     padding: 4em;
 }
 .felicityfr3poxt3ngm h3 {
-    font-size: var(--heading-two);
+    font-size: var(--heading-medium);
+    margin-top: 10px;
 }
 .felicityfr3poxt3ngm .btn-primary,
 .felicityfr3poxt3ngm .btn-primary:hover,
 .felicityfr3poxt3ngm .btn-primary:not(:disabled):not(.disabled):active{
     background-color: var(--primary-Color);
     border-color: var(--primary-Color);
-    font-weight: 400;
+    font-weight: var(--button-font-weight);
 }
 .felicityfr3poxt3ngm strong {
-    font-weight: 600 !important;
+    font-weight: var(--button-font-weight) !important;
 }
 /* blogec6cc8e186617bf6 */
 .blogec6cc8e186617bf6 .my-3{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 .blogec6cc8e186617bf6 .blog-home3 h3{
     color: var(--text-Color);
 }
 .blogec6cc8e186617bf6 .blog-home3 .subtitle {
     color: var(--black-Color);
-    font-size: 18px;
+    font-size: var();
 }
 .blogec6cc8e186617bf6 .blog-home3 .bg-success-gradient{
     background: linear-gradient(to bottom, var(--secondary-Background-Color) 0%, var(--main-Background-Color) 218%);
 }
 .blogec6cc8e186617bf6 .blog-home3 .date-pos{
-    font-size: 12px;
+    font-size: 16px;
     color: var(--black-Color) !important;
     font-weight: 600;
+}
+.blogec6cc8e186617bf6 .blog-home3 h5{
+    font-size: var(--paragraph);
 }
 /* counteraf598102c9dad94e */
 .counteraf598102c9dad94e{
     padding: 4em;
 }
 .counteraf598102c9dad94e h2 {
-    font-size: var(--heading);
+    font-size: var(--heading-large);
     color: var(--secondary-Background-Color);
 }
 .counteraf598102c9dad94e h4 {
-    font-size: 20px;
+    font-size: var(--paragraph);
     color: var(--black-Color);
 }
 /* formft4wqz7r3sf */
 .formft4wqz7r3sf h2{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 .formft4wqz7r3sf .lead {
-    font-size: 18px;
+    font-size: var(--paragraph);
 }
 .formft4wqz7r3sf .btn-primary,
 .formft4wqz7r3sf .btn-primary:hover,
 .formft4wqz7r3sf .btn-primary:not(:disabled):not(.disabled):active{
     background-color: var(--primary-Color);
     border-color: var(--primary-Color);
-    font-weight: 400;
+    font-weight: var(--button-font-weight);
 }
 /* sliders1fae57451461b568 */
 .sliders1fae57451461b568 h3{
-    font-size: var(--heading-two);
+    font-size: var(--heading-large);
 }
 .sliders1fae57451461b568 .btnStyle {
     background-color: var(--secondary-Background-Color);
@@ -128,10 +137,13 @@
 .sliders1fae57451461b568 .card-text {
     font-weight: 600 !important;
 }
+.sliders1fae57451461b568 .card img{
+    margin-left: 15px;
+}
 /* testimonialtmgmxjq0hb8 */
 .testimonialtmgmxjq0hb8 .lead {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: var(--paragraph);
+    font-weight: var(--button-font-weight);
 }
 .testimonialtmgmxjq0hb8 .h3 {
     font-size: var(--heading-two);

@@ -1,0 +1,30 @@
+{
+    "name": "brandon",
+    "description": "Brandon an innovative static e-learning website template, has been meticulously crafted with advanced technology, prioritizing aesthetics to offer an engaging and visually appealing platform for hosting educational content. Despite its somewhat limited functionality, this template serves as the cornerstone for establishing an interactive learning environment that effectively engages students and advances educational objectives.",
+    "short_name": "brandon",
+    "start_url": "https://moksy.com/templates/brandon",
+    "display": "standalone",
+    "background_color": "#f69435",
+    "theme_color": "#ff914f",
+    "orientation": "portrait",
+    "icons": [
+    {
+    "src": "/assets/images/branding/favicon/apple-icon-36x36.png",
+    "sizes": "36x36",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/assets/images/branding/favicon/apple-icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/assets/images/branding/favicon/android-icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+    }
+    ]
+    }
